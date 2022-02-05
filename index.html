@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>გამოთვალე</title>
+  </head>
+  <body>
+    <main>
+      <div class="title-block">
+        <p class="title-block-text">გამოთვალე</p>
+      </div>
+
+      <div class="frame">
+        <!-- ELEMENTS -->
+        <div class="answers">
+          <p class="answ answers-label">🏆 სწორი პასუსები:</p>
+          <p class="answ answers-value">0</p>
+        </div>
+        <button class="btn btn-new">
+          <p class="btn-check-text">↺ ახლიდან</p>
+        </button>
+        <div class="elements">
+          <div class="element numbers element-1">
+            <p class="element-text element-text--1">5</p>
+          </div>
+
+          <div class="element operator-1">
+            <p class="operator-text operator-text--1">·</p>
+          </div>
+
+          <div class="element numbers element-2">
+            <p class="element-text element-text--2">5</p>
+          </div>
+
+          <div class="element operator-2">
+            <p class="operator-text operator-text--2">+</p>
+          </div>
+
+          <div class="element numbers element-3">
+            <p class="element-text element-text--3">10</p>
+          </div>
+
+          <div class="element operator-3">
+            <p class="operator-text operator-text--3">=</p>
+          </div>
+
+          <div class="element numbers glow element-4" id="answer-box">
+            <input type="number" placeholder=" ?" class="guess" min="0" />
+            <p class="element-text element-text--4"></p>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <button class="btn btn-check">
+          <p class="btn-check-text">✓ შეამოწმე</p>
+        </button>
+
+        <div class="bottom">
+          <div class="emoji">
+            <img src="emoji-2.png" alt="emoji" class="emoji-pic" />
+          </div>
+          <div class="hint">
+            <p class="hint-text">ჩაწერე პასუხი და შეამოწმე ღილაკით</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
