@@ -48,7 +48,7 @@ initState();
 btnCheck.addEventListener('click', function () {
   if (Number(guess.value) === d) {
     // When the answer is Correct
-    message.textContent = 'ყოჩააააღ!!! 🥰';
+    message.textContent = 'ყოჩააააღ!!!';
     answerBox.classList.remove('wrong');
     answerBox.classList.add('correct');
     btnCheck.classList.add('hidden');
